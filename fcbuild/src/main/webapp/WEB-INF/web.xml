@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>BrowserServlets</servlet-name>
+  	<display-name>BrowserServlets</display-name>
+  	<description>BrowserServlets Description</description>
+  	<servlet-class>com.builds.servlets.BrowserServlets</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ConfirmationServlets</servlet-name>
+  	<display-name>ConfirmationServlets</display-name>
+  	<description></description>
+  	<servlet-class>com.builds.servlets.ConfirmationServlets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BrowserServlets</servlet-name>
+  	<url-pattern>/BrowserServlets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ConfirmationServlets</servlet-name>
+  	<url-pattern>/ConfirmationServlets</url-pattern>
+  </servlet-mapping>
+</web-app>

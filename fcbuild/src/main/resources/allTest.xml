@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Login">
+   <test name="ValidLogin">
+    <classes>
+      <class name="com.builds.baseutils.Grid" />
+    </classes>
+  </test>
+</suite>
